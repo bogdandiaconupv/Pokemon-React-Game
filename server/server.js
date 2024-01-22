@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const UserM = require("./Models/UserM");
+// ADD..env with mongourl
 require("dotenv").config();
 const { MONGO_URL } = process.env;
 if (!MONGO_URL) {

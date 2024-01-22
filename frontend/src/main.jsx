@@ -53,7 +53,7 @@ scene.background = textureLoader.load(wall2);
 const loader = new GLTFLoader();
 let model;
  let everythinghidden;
-loader.load("./lobby/scene.gltf", function (gltf) {
+loader.load("/public/lobby/lobby/scene.gltf", function (gltf) {
   model = gltf.scene;
   model.position.x = 10;
   model.position.y = -10;
